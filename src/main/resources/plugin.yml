@@ -1,0 +1,21 @@
+name: Manhunt
+version: ${project.version}
+main: gq.arnu515.manhunt.Manhunt
+api-version: 1.16
+authors: [ arnu515 ]
+description: Manhunt
+website: arnu515.gq
+commands:
+  compass:
+    description: Get compass to track speedrunner
+    usage: /<command>
+    aliases:
+      - track
+      - c
+      - t
+  speedrunner:
+    description: Set the speedrunner
+    usage: /<command> <player>
+    aliases:
+      - sr
+      - s
